@@ -43,13 +43,13 @@ Since the <span style="color: #808080;"><strong>master</strong> </span>branch is
 Now, we need to create a different branch and update its heading. The branch that we create must not branch from the main branch. If we make a branch that branches off the main branch, that change be considered ahead; Git will use that change instead of the change we just made on <span style="color: #808080;"><strong>master</strong></span>. We need to put our new branch in the past. To do that, complete the following steps:
 <ol>
  	<li> View the previous commit's SHA by using<span style="color: #808080;"><strong> git log --oneline
-<img class="alignleft wp-image-593 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_log_-oneline_output-1.png" alt="Screenshot showing the results of running git log --oneline on a Windows machine " width="827" height="474" />
+<img class="alignleft wp-image-593 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_log_-oneline_output-1.png" alt="Screenshot showing the results of running git log --oneline on a Windows machine "/>
 </strong></span></li>
  	<li> Create <span style="color: #808080;"><strong>heading-update</strong></span> by typing <strong><span style="color: #808080;">git branch heading-update</span></strong>.
 <img class="alignleft wp-image-595 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/created_heading-update.png" alt="Screenshot showing how to create and the results of creating a new branch" /></li>
- 	<li>Run <strong><span style="color: #808080;">git log --oneline --decorate --graph --all </span></strong>to make sure that the heading-update branch is currently checked-out.
+ 	<li>Run <strong><span style="color: #808080;">git log --oneline --decorate --graph --all </span></strong>to make sure that the heading-update branch is currently checked-out
 <img class="alignleft wp-image-596 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_log_-oneline_-decorate_-graph_-all_output.png" alt="Results of running git log --oneline --decorate --graph --all on a windows machine" width="827" height="474" /></li>
- 	<li>Update the <em>same</em> heading in index.html that you previously updated; the content of this heading should be different.
+ 	<li>Update the <em>same</em> heading in index.html that you previously updated; the content of this heading should be different
 <img class="alignleft wp-image-598 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/changed_heading_1.png" alt="Screenshot of index.html in Visual Studio Code with line 13 highlighted"/></li>
  	<li>Save<strong> <span style="color: #808080;">index.html</span></strong>.
 <img class="alignleft wp-image-600 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/saved-index.png" alt="Screenshot showing how to save index.html in Visual Studio Code"/></li>
@@ -122,7 +122,7 @@ A merge conflict happens when the lines or line have been changed on different b
 <ol>
  	<li>Determine what needs to be kept</li>
  	<li>Locate and remove all lines with merge conflict indicators
-<img class="alignleft wp-image-627 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/edited_index.png" alt="Edited index.html with line 13 highlighted"  /></li>
+<img class="alignleft wp-image-627 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/edited_index.png" alt="Edited index.html with line 13 highlighted" /></li>
  	<li>Save and stage the file or files
 <img class="alignleft wp-image-629 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_add_index.png" alt="Screenshot of Git Bash that shows the results of running git add index.html" /></li>
  	<li>Make a commit
