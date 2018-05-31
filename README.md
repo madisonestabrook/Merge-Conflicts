@@ -218,7 +218,7 @@ Automatic merge failed; fix conflicts and <span class=
     <li>Commit <span style="color: #808080;"><strong>index.html</strong></span> to the
     repository by using <span style="color: #808080;"><strong>git add
     index.html</strong></span> and <span style="color: #808080;"><strong>git commit
-    index.html</strong></span></li>
+   </strong></span></li>
   </ol>
 
   <h2>Merge Conflict Recap</h2>A merge conflict happens when the lines or line have been
