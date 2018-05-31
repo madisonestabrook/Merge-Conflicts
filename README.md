@@ -110,7 +110,7 @@
     alt=
     "Results of running git log --oneline --decorate --graph --all on a windows machine"
     width="827" height="474" /></li>
-    <li>Update the <em>same</em> heading in index.html that you previously updated; the
+    <li>Update the <em>same</em> heading in <strong><span style="color: #808080;"> index.html </span></strong> that you previously updated; the
     content of this heading should be different <img class=
     "alignleft wp-image-598 size-full" src=
     "http://www.madisonestabrook.com/wp-content/uploads/2018/05/changed_heading_1.png"
