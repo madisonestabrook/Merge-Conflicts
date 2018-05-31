@@ -55,7 +55,7 @@
 
   <ol>
     <li>Using the <strong><span style="color: #808080;">cd</span></strong> command to
-    navigate to the new-git-project folder <img class="alignleft wp-image-581 size-full"
+    navigate to the <strong><span style="color: #808080;"> new-git-project </span></strong> folder <img class="alignleft wp-image-581 size-full"
     src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/cd_screenshot.png"
     alt=
     "Screenshot of Git Bash on a Windows machine that shows the results of running cd new-git-project"/></li>
