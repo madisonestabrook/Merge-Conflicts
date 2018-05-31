@@ -31,12 +31,12 @@ Since the <span style="color: #808080;"><strong>master</strong> </span>branch is
  	<li>Make sure you are on the <span style="color: #808080;"><strong>master </strong></span>branch by using the <strong><span style="color: #808080;">git checkout</span></strong> command
 <img class="alignleft wp-image-583 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_checkout_master_screenshot.png" alt="Screenshot of Git Bash on a Windows machine that shows the results of running git checkout master" width="827" height="474" /></li>
  	<li>Change the <span style="color: #808080;"><strong>&lt;h1&gt;</strong></span> to something other than what it currently is, such as “Quest”
-<img class="alignleft wp-image-585 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/change_h1_screenshot.png" alt="Screenshot of index.html with line 13 selected" width="1915" height="1037" /></li>
+<img class="alignleft wp-image-585 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/change_h1_screenshot.png" alt="Screenshot of index.html with line 13 selected" /></li>
  	<li>Save <span style="color: #808080;"><strong>index.html
-<img class="alignleft wp-image-587 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/save-index.png" alt="Screenshot showing how to save index.html in Visual Studio Code " width="1921" height="1036" />
+<img class="alignleft wp-image-587 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/save-index.png" alt="Screenshot showing how to save index.html in Visual Studio Code " />
 </strong></span></li>
  	<li>Commit <span style="color: #808080;"><strong>index.html</strong> </span>to the repository by using <span style="color: #808080;"><strong>git add index.html</strong></span> and <strong><strong><span style="color: #808080;">git commit
-<img class="alignleft wp-image-589 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/commit_index.png" alt="Screenshot showing how to commit index.html in Git" width="827" height="474" />
+<img class="alignleft wp-image-589 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/commit_index.png" alt="Screenshot showing how to commit index.html in Git" />
 </span></strong></strong></li>
 </ol>
 <h3 id="branch2Change">Change Heading on Branch 2 (Steps 2-5)</h3>
@@ -46,24 +46,24 @@ Now, we need to create a different branch and update its heading. The branch tha
 <img class="alignleft wp-image-593 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_log_-oneline_output-1.png" alt="Screenshot showing the results of running git log --oneline on a Windows machine " width="827" height="474" />
 </strong></span></li>
  	<li> Create <span style="color: #808080;"><strong>heading-update</strong></span> by typing <strong><span style="color: #808080;">git branch heading-update</span></strong>.
-<img class="alignleft wp-image-595 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/created_heading-update.png" alt="Screenshot showing how to create and the results of creating a new branch" width="827" height="474" /></li>
+<img class="alignleft wp-image-595 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/created_heading-update.png" alt="Screenshot showing how to create and the results of creating a new branch" /></li>
  	<li>Run <strong><span style="color: #808080;">git log --oneline --decorate --graph --all </span></strong>to make sure that the heading-update branch is currently checked-out.
 <img class="alignleft wp-image-596 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_log_-oneline_-decorate_-graph_-all_output.png" alt="Results of running git log --oneline --decorate --graph --all on a windows machine" width="827" height="474" /></li>
  	<li>Update the <em>same</em> heading in index.html that you previously updated; the content of this heading should be different.
-<img class="alignleft wp-image-598 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/changed_heading_1.png" alt="Screenshot of index.html in Visual Studio Code with line 13 highlighted" width="1917" height="1035" /></li>
+<img class="alignleft wp-image-598 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/changed_heading_1.png" alt="Screenshot of index.html in Visual Studio Code with line 13 highlighted"/></li>
  	<li>Save<strong> <span style="color: #808080;">index.html</span></strong>.
-<img class="alignleft wp-image-600 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/saved-index.png" alt="Screenshot showing how to save index.html in Visual Studio Code" width="1921" height="1042" /></li>
+<img class="alignleft wp-image-600 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/saved-index.png" alt="Screenshot showing how to save index.html in Visual Studio Code"/></li>
  	<li>Commit <span style="color: #808080;"><strong>index.html</strong></span> to the repository by using<span style="color: #808080;"> <strong>git add index.html</strong></span> and <span style="color: #808080;"><strong>git commit
-<img class="alignleft wp-image-601 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/commit_index-1.png" alt="Screenshot showing how to commit index.html in Git Bash on a Windows machine" width="827" height="474" />
+<img class="alignleft wp-image-601 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/commit_index-1.png" alt="Screenshot showing how to commit index.html in Git Bash on a Windows machine" />
 </strong></span></li>
  	<li>Make sure you are on the master branch by using <strong><span style="color: #808080;"> git checkout
-<img class="alignleft wp-image-602 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_checkout.png" alt="Screenshot that shows the results of running git checkout on a Windows machine using Git Bash" width="827" height="474" />
+<img class="alignleft wp-image-602 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_checkout.png" alt="Screenshot that shows the results of running git checkout on a Windows machine using Git Bash"/>
 </span></strong></li>
  	<li>Merge<span style="color: #808080;"><strong> heading-update</strong></span> by running <strong><span style="color: #808080;">git merge heading-update
-<img class="alignleft wp-image-606 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_merge_heading-update-1.png" alt="Screenshot that shows how to run git merge heading-update on a Windows machine using Git Bash" width="827" height="474" />
+<img class="alignleft wp-image-606 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_merge_heading-update-1.png" alt="Screenshot that shows how to run git merge heading-update on a Windows machine using Git Bash" />
 </span></strong></li>
  	<li>Verify that you get an error message
-<img class="alignleft wp-image-607 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/error_message.png" alt="Screenshot of error message in Git Bash on a Windows machine " width="827" height="474" /></li>
+<img class="alignleft wp-image-607 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/error_message.png" alt="Screenshot of error message in Git Bash on a Windows machine "/></li>
 </ol>
 <h2 class="explanation">Merge Conflict Output Explained</h2>
 The Terminal's output is:
@@ -80,10 +80,10 @@ Notice:
 </ol>
 Run <span style="color: #808080;"><strong>git status</strong></span> and read its output, which says the merge conflict is inside <span style="color: #808080;"><strong>index.html</strong></span>.
 
-<img class="alignleft wp-image-609 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_status.png" alt="Screenshot showing the results of running git status " width="827" height="474" />
+<img class="alignleft wp-image-609 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_status.png" alt="Screenshot showing the results of running git status "/>
 
 Open <strong><span style="color: #808080;">index.html</span></strong> in your preferred code editor.
-<img class="alignleft wp-image-611 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/index_after_commit_fail.png" alt="Screenshot showing index.html with error messages" width="1919" height="1038" />
+<img class="alignleft wp-image-611 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/index_after_commit_fail.png" alt="Screenshot showing index.html with error messages" />
 <h3>Explanation of Indicators</h3>
 <table>
 <tbody>
@@ -122,10 +122,10 @@ A merge conflict happens when the lines or line have been changed on different b
 <ol>
  	<li>Determine what needs to be kept</li>
  	<li>Locate and remove all lines with merge conflict indicators
-<img class="alignleft wp-image-627 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/edited_index.png" alt="Edited index.html with line 13 highlighted" width="1916" height="1036" /></li>
+<img class="alignleft wp-image-627 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/edited_index.png" alt="Edited index.html with line 13 highlighted"  /></li>
  	<li>Save and stage the file or files
-<img class="alignleft wp-image-629 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_add_index.png" alt="Screenshot of Git Bash that shows the results of running git add index.html" width="827" height="474" /></li>
+<img class="alignleft wp-image-629 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_add_index.png" alt="Screenshot of Git Bash that shows the results of running git add index.html" /></li>
  	<li>Make a commit
-<img class="alignleft wp-image-630 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_commit.png" alt="Screenshot showing how to make a commit in Git" width="827" height="474" /></li>
+<img class="alignleft wp-image-630 size-full" src="http://www.madisonestabrook.com/wp-content/uploads/2018/05/git_commit.png" alt="Screenshot showing how to make a commit in Git" /></li>
 </ol>
 A file can have multiple merge conflicts; be sure to check all the file for merge conflicts by searching for<strong> <span style="color: #808080;">&lt;&lt;&lt;</span></strong>.
