@@ -1,10 +1,12 @@
-  Most of the time, Git will successfully merge branches together without any problems.
+  <p>Most of the time, Git will successfully merge branches together without any problems.
   However, there are times in which a merge cannot be fully performed. <em>A merge
-  conflict is when a merge fails.</em> If a merge conflict occurs, Git will try to
+  conflict is when a merge fails.</em> <p>
+  <p>If a merge conflict occurs, Git will try to
   combine as much as it can, but it will leave special markers, such as
   <strong><span style="color: #808080;">&gt;&gt;</span></strong> and <strong><span style=
   "color: #808080;">&gt;&gt;</span></strong>, that tell us (the programmers!) what we
-  need to fix. This article:
+  need to fix.<p>
+    <p>This article:
 
   <ul>
     <li><a href="#causes">Addresses what causes a merge conflict</a></li>
@@ -13,7 +15,7 @@
     <li><a href="#explanation">Explains the output of merge conflict</a></li>
     <li><a href="#resolution">Demonstrates how to resolve a merge conflict</a></li>
   </ul>
-
+</p>
   <h2 id="causes">What Causes a Merge Conflict?</h2>Git tracks lines in files. <em>A
   merge conflict occurs when the exact same line or lines are changed in separate
   branches</em>. For example, if we are on a <span style=
