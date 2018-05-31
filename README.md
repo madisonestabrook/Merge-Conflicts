@@ -16,21 +16,23 @@
     <li><a href="#resolution">Demonstrates how to resolve a merge conflict</a></li>
   </ul>
 </p>
-  <h2 id="causes">What Causes a Merge Conflict?</h2>Git tracks lines in files. <em>A
-  merge conflict occurs when the exact same line or lines are changed in separate
+  <h2 id="causes">What Causes a Merge Conflict?</h2>
+  <p> Git tracks lines in files. <em>A merge conflict occurs when the exact same line or lines are changed in separate
   branches</em>. For example, if we are on a <span style=
   "color: #808080;"><strong>alter-sidebar-style</strong></span> branch and change the
   sidebar&rsquo;s heading to &ldquo;About Me&rdquo; but, then, on a different branch,
   change the sidebar&rsquo;s heading to &ldquo;Information About Me,&rdquo; which heading
   should Git choose? The heading is changed on both branches; Git does not know which
-  change to keep. We will force a merge conflict, which teaches us how to resolve it.
+  change to keep.</p>
+  <p> We will force a merge conflict, which teaches us how to resolve it.
   Remember a merge conflict occurs when the exact same line or lines are changed in
   separate branches. All we need to do is edit the exact same line on 2 different
-  branches and try to merge them.
+  branches and try to merge them. </p>
 
-  <h2 class="instructions">Forcing a Merge Conflict Instructions</h2>Again, remember a
+  <h2 class="instructions">
+  <p> Forcing a Merge Conflict Instructions</h2>Again, remember a
   merge conflict occurs when the exact same line or lines are changed in separate
-  branches. Our plan is as follows:
+  branches. Our plan is as follows: </p>
 
   <ol>
     <li><a href="#branch1Change">Change the heading on the <strong><span style=
@@ -48,10 +50,11 @@
   "https://github.com/madisonestabrook/Merge-Conflicts.git" target="_blank" rel=
   "noopener">https://github.com/madisonestabrook/Merge-Conflicts.git</a>.
 
-  <h3 id="branch1Change">Change Heading on Branch 1 (Step 1)</h3>Since the <span style=
+  <h3 id="branch1Change">Change Heading on Branch 1 (Step 1)</h3>
+  <p> Since the <span style=
   "color: #808080;"><strong>master</strong></span> branch is a regular branch, just alter
   the heading while we are on <span style=
-  "color: #808080;"><strong>master</strong></span> by completing the following steps:
+  "color: #808080;"><strong>master</strong></span> by completing the following steps: </p>
 
   <ol>
     <li>Using the <strong><span style="color: #808080;">cd</span></strong> command to
@@ -143,7 +146,8 @@
     "Screenshot of error message in Git Bash on a Windows machine " /></li>
   </ol>
 
-  <h2 class="explanation">Merge Conflict Output Explained</h2>The Terminal's output is:
+  <h2 class="explanation">Merge Conflict Output Explained</h2>
+  <p> The Terminal's output is:
 
   <blockquote>
     <pre>
@@ -171,9 +175,9 @@ Automatic merge failed; fix conflicts and <span class=
   "alignleft wp-image-611 size-full" src=
   "http://www.madisonestabrook.com/wp-content/uploads/2018/05/index_after_commit_fail.png"
   alt="Screenshot showing index.html with error messages" />
-
+</p>
   <h3>Explanation of Indicators</h3>
-
+<p>
   <table>
     <tbody>
       <tr>
@@ -206,8 +210,10 @@ Automatic merge failed; fix conflicts and <span class=
       </tr>
     </tbody>
   </table>
-
-  <h2 class="#resolution">Resolving a Merge Conflict</h2>Git uses the merge conflict
+</p>
+  <h2 class="#resolution">Resolving a Merge Conflict</h2>
+  <p>
+  Git uses the merge conflict
   indicators to show what caused the conflict on the 2 different branches and what the
   original line used to be. To resolve a merge conflict, complete the following steps:
 
@@ -220,11 +226,12 @@ Automatic merge failed; fix conflicts and <span class=
     index.html</strong></span> and <span style="color: #808080;"><strong>git commit
    </strong></span></li>
   </ol>
-
-  <h2>Merge Conflict Recap</h2>A merge conflict happens when the lines or line have been
+</p>
+  <h2>Merge Conflict Recap</h2>
+  <p> A merge conflict happens when the lines or line have been
   changed on different branches that are being merged. Git will stop merging to show the
   error. To resolve the conflict in a file, complete the following steps:
-
+</p>
   <ol>
     <li>Determine what needs to be kept</li>
     <li>Locate and remove all lines with merge conflict indicators <img class=
