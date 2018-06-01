@@ -102,7 +102,7 @@
     </strong></span></li>
     <li>Create <span style="color: #808080;"><strong>heading-update</strong></span> by
     typing <strong><span style="color: #808080;">git branch
-    heading-update</span></strong>. <img class="alignleft wp-image-595 size-full" src=
+    heading-update</span></strong> <img class="alignleft wp-image-595 size-full" src=
     "http://www.madisonestabrook.com/wp-content/uploads/2018/05/created_heading-update.png"
     alt=
     "Screenshot showing how to create and the results of creating a new branch" /></li>
